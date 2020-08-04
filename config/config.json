@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "events-with-location-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventsWithLocation/EventsWithLocationWebPart.js",
+          "manifest": "./src/webparts/eventsWithLocation/EventsWithLocationWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {  },
+  "localizedResources": {
+    "EventsWithLocationWebPartStrings": "lib/webparts/eventsWithLocation/loc/{locale}.js"
+  }
+}

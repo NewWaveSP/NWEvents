@@ -1,0 +1,113 @@
+.fc-event .fc-content {
+  padding: 5px;
+}
+
+.fc-day-grid-event {
+  margin: 3px 5px;
+  cursor: pointer;
+}
+
+.modal_body .content_wrap>div {
+  margin-bottom: 10px;
+  display: flex;
+
+}
+
+.modal_body .content_wrap>div>div {
+  padding: 5px;
+}
+
+.modal_body .content_wrap>div>div:first-of-type {
+  width: 110px;
+}
+
+.modal_body .content_wrap>div>div:last-of-type {
+  width: calc(100% - 110px);
+}
+
+.attendees_count_wrap,.user_details{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.attendees_count_wrap{ margin-top: 30px; ;}
+.attendees_count_wrap>div,
+.user_details>div {
+  width: 100%;
+  position: relative;  
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  margin: 10px;
+}
+.user_details {
+  margin-top: 20px;
+}
+.user_details a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+  height: 30px;
+}
+
+.user_details a:hover {
+  background-color: #fbfbfb;
+}
+
+.user_details a img {
+  width: 40px;
+  margin: 0 30px;
+}
+
+.user_details a span {
+  font-weight: 600;
+}
+
+.attendees_count_wrap>div>div:first-of-type {
+  position: absolute;
+  left: 50%;
+  top: -20px;
+  transform: translateX(-50%);
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 19px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border: 2px solid #fff;
+}
+
+.attendees_count_wrap>div>div:last-of-type {
+  font-size: 22px;
+  padding: 20px 0 5px;
+  text-align: center;
+  color: #fafafa;
+}
+
+.attendees_count_wrap .attendees_going,
+.attendees_count_wrap>.attendees_going>div:first-of-type {
+  background-color: #8ad157;
+}
+
+.attendees_count_wrap .attendees_maybe,
+.attendees_count_wrap>.attendees_maybe>div:first-of-type {
+  background-color: #37474f;
+}
+
+.attendees_count_wrap .attendees_notgoing,
+.attendees_count_wrap>.attendees_notgoing>div:first-of-type {
+  background-color: #a9026d;
+}
+
+.attendees_disabled {
+  background-color: #CCCCCC !important;
+  color: #888888 !important;
+}
+
+.attendees_disabled button {
+  background-color: transparent !important;
+  color: #3b3b3b!important;
+}
